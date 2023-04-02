@@ -1,0 +1,99 @@
+/* basic selector */
+
+/* p{
+    color:red;
+}
+
+#fifth{
+    color:purple;
+}
+
+.pg{
+    color:green;
+} */
+
+
+/* element selector */
+
+section{
+    background:cyan;
+    color:purple;
+}
+
+/* Descendant (space) */
+section p{
+    color:green;
+}
+
+section div p{
+    font-size:30px;
+}
+
+
+/* child (>) */
+section>p{
+    color:blue;
+}
+
+/* adjacent (+) */
+
+
+section + div{
+    color:maroon;
+}
+
+
+/* siblings (~) */
+section~div{
+    color:cyan;
+}
+
+
+/* attribute selector */
+
+/* [attribute-name] */
+[href]{
+    text-decoration:none;
+    color:red;
+}
+
+/* [Attribute-name="value] */
+[href="contact.html"]{
+    background:cyan;
+    color:blue;
+}
+
+/* element[attribute-name] */
+a[href]{
+    text-decoration:line-through;
+    color:pink;
+}
+
+
+/* Pseudo-selector */
+/* during and after rendering time */
+
+/* :: for pseudoelement */
+/* : for pseudoclass */
+
+/* pseudo-element selector */
+
+/* p::first-letter{
+    font-size:32px;
+}
+
+p::first-line{
+    color:indigo;
+} */
+
+
+/* pseudo-class selector */
+a:hover{
+    font-size:30px;
+}
+
+
+/* nth-child */
+p:nth-child(odd){
+    color:red;
+}
